@@ -11,6 +11,8 @@ Prints out useful list of functions yet to be type speced.
 
 # Example output
 
+`deps` contains Erlang standard library sources (`gen_server` etc.)
+
 
 ```
 ❯ ./check.erl "{dep, deps}." "{src, antidote}." "{dep, 'riak-core-src'}."
